@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>userdashboard|Tractor service</title>
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="styles/userdashboard.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="/images/Group 8968.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <div class="flash">
+                <p>
+                    Flash sales
+                    <span class="space">Get 30% discount on all our Agrochemical Products</span>
+                </p>
+            </div>
+            <div class="search">
+                <div></div>
+                <div class="bar">
+                    <img src="/images/tract/Iconly-Two-tone-Search.png" alt="" class="icon" />
+                    <input type="search" name="" id="searchbar" placeholder="Search for service" />
+                </div>
+
+                <div class="btn">
+                    <div class="login">
+                        <div class="button">
+                            <img src="images/Mr Desmond.PNG" class="user-pic" alt="">
+                            <div class="sub-menu-wrap" id="subMenu">
+                                <div class="sub-menu">
+                                    <div class="user-info">
+                                        <img src="images/Mr Desmond.PNG" alt="">
+                                        <h3 id="userName"></h3>
+                                    </div>
+                                    <hr>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="images/copy-solid.svg" alt="">
+                                        <p>Referral Code: <span id="userId" style="font-size:small
+                                        "></span></p>
+                                        <span></span>
+                                    </a>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="images/user-solid.svg" alt="">
+                                        <p>Edit Profile</p>
+                                        <span></span>
+                                    </a>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="images/setting.png" alt="">
+                                        <p>Setting & Privacy</p>
+                                        <span></span>
+                                    </a>
+                                    <a href="#" class="sub-menu-link">
+                                        <img src="images/question-solid.svg" height="40px" alt="">
+                                        <p>Help & support</p>
+                                        <span></span>
+                                    </a>
+                                    <div id="logout" onclick="
+                                    logout()">
+                                        <a class="sub-menu-link">
+                                            <img src="images/logout.svg" alt="">
+                                            <p>Log Out</p>
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="start">
+                        <img class="cart" src="/images/Buy.png" alt="profile and cart" />
+                        <p>Cart</p>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div>
+                    <img src="/images/Group 8968.png" alt="" width="53px" height="53px" />
+                </div>
+                <div>
+                    <ul class="ul-item">
+                        <li class="ul-list"><a href="dashboard.html" class="list active">Home</a></li>
+                        <li class="ul-list">
+                            <a href="orders.html" class="list ">Orders</a>
+                        </li>
+                        <li class="ul-list">
+                            <a href="completed.html" class="list">Completed</a>
+                        </li>
+                        <li class="ul-list"><a href="about.html" class="list">About</a></li>
+                        <!-- <li class="ul-list"><a href="/" class="list">Privacy Policy</a></li> -->
+                    </ul>
+                </div>
+                <div></div>
+            </section>
+        </header>
+        <div class="flex-container">
+            <aside>
+                <div class="left_text">
+                    <ul>
+                        <li>
+                            <a href="userdashboard.html">DASHBOARD</a>
+                        </li>
+                        <li>
+                            <a href="analytics.html">ANALYTICS</a>
+                        </li>
+                        <li>
+                            <a href="comments.html">COMMENTS </a>
+                        </li>
+                        <li>
+                            <a href="notification.html">NOTIFICATION </a>
+                        </li>
+                        <li>
+                            <a href="review.html">REVIEWS</a>
+                        </li>
+                        <li>
+                            <a href="userdashboardsec.html">EARNING</a>
+                        </li>
+                    </ul>
+            </aside>
+            <main>
+                <div class="content">
+                    <div class="right-list">
+                        <div class="three-box">
+                            <div class="first">
+                                <div class="first-top">
+                                    <h1>TOTAL ORDERS</h1>
+                                    <p> New &#8358;148,694</p>
+                                </div>
+                                <div class="first-img">
+                                    <img src="./images/Vector (1).jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="second">
+                                <div>
+                                    <h1>TRACTORS</h1>
+                                    <p>40</p>
+                                </div>
+                                <div class="first-img">
+                                    <img src="./images/Vector (2).jpg" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="second">
+                                <div class>
+                                    <h1>NUMBERS OF ORDERS</h1>
+                                    <p>40</p>
+                                </div>
+                                <div class="first-img">
+                                    <img src="./images/Vector (3).jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single">
+                            <p>ADD A SINGLE ITEM</p>
+                            <button class="BTN">ADD</button>
+                        </div>
+
+                        <h1 class="last">Latest Tractor Performance</h1>
+
+                        <div class="last-three">
+                            <div class="second1">
+                                <h1>TRACTORS 1</h1>
+                                <p>5 Orders</p>
+                            </div>
+
+                            <div class="second2">
+                                <h1>TRACTORS 2</h1>
+                                <p>10 Orders</p>
+                            </div>
+
+                            <div class="second3">
+                                <h1>TRACTORS 3</h1>
+                                <p>12 Orders</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </main>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-left">
+                <img src="/images/Group 8968.png" alt="" width="53px" height="53px" />
+                <p>Contact Us</p>
+                <div class="footer-socials">
+                    <img src="/images/tract/ant-design_whats-app-outlined.png" alt="" />
+                    <div>
+                        <p>Whatsapp</p>
+                        <p>+234 123 1234</p>
+                    </div>
+                </div>
+                <div class="footer-socials">
+                    <img src="/images/tract/Call.png" alt="" />
+                    <div>
+                        <p>Call Us</p>
+                        <p>+234 123 1234</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/tract/ph_instagram-logo.png" alt="" />
+                    <img src="/images/tract/ri_facebook-fill.png" alt="" />
+                    <img src="/images/tract/carbon_logo-youtube.png" alt="" />
+                </div>
+            </div>
+
+            <div class="footer-top-right">
+                <div>
+                    <div>
+                        <div class="saver-top">
+                            <p class="top footer-top">Popular Categories</p>
+                        </div>
+                        <div class="lineeeee"></div>
+                    </div>
+                    <ul class="footer-unordered">
+                        <li class="footer-list">Farm Implements</li>
+                        <li class="footer-list">Diary</li>
+                        <li class="footer-list">Agrochemical</li>
+                        <li class="footer-list">Livestock Management</li>
+                        <li class="footer-list">Tractor Hiring</li>
+                        <li class="footer-list">Training</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div>
+                        <div class="saver-top">
+                            <p class="top footer-top">Customer Services</p>
+                        </div>
+                        <div class="lineeeee"></div>
+                    </div>
+                    <ul class="footer-unordered">
+                        <li class="footer-list">About Us</li>
+                        <li class="footer-list">Terms and Condition</li>
+                        <li class="footer-list">FAQ</li>
+                        <li class="footer-list">Privacy Policy</li>
+                        <li class="footer-list">E-waste Policy</li>
+                        <li class="footer-list">Cancellation & Return Policy</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div>
+                        <div class="saver-top">
+                            <p class="top footer-top">Download App</p>
+                        </div>
+                        <div class="lineeeeee"></div>
+                    </div>
+                    <div class="download-app">
+                        <img src="/images/tract/Apple Store.png" alt="" height="44px" width="147px" />
+                        <img src="/images/tract/Play Sotre.png" alt="" height="44px" width="147px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-line-div">
+            <div class="footer-line"></div>
+        </div>
+
+        <div>
+            <p class="footer-para">
+                &copy; 2023 All rights reserved.
+                <span class="footer-span">TractorLinks</span>.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="./script/dropdown.js"></script>
+</body>
+
+</html>

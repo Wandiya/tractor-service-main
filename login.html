@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/images/Group 8968.png" />
+    <title>Tractor Links</title>
+    <link rel="stylesheet" href="/styles/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="form">
+        <div class="blue">
+            <img src="/images/Group 8968.png" />
+        </div>
+
+        <!-- larger page for login -->
+        <div class="white">
+            <p class="one">Welcome to Tractor links</p>
+            <h2 class="two">Login to your Account</h2>
+
+            <div class="main-form">
+                <div class="form1">
+                    <h3>Email</h3>
+
+                    <input type="email" name="login" placeholder="somodobo@gmail.com" required id="email" />
+                </div>
+
+                <div class="form2">
+                    <h3 class="h3">Password</h3>
+                    <input type="password" name="Password" required placeholder="***********" id="password" />
+                </div>
+
+                <div>
+                    <p id="errorMessage" style="color: red; padding-top: 5px;"></p>
+                </div>
+
+                <div class="bottom">
+                    <button class="btn">
+              <a class="btn" id="login" onclick="handleLogin()">Log in</a>
+            </button>
+
+                    <h4 class="or">OR</h4>
+                    <div class="theTwo">
+                        <button class="socials1">
+                <img class="images" src="/images/facebook.jpg" />
+                <p>Facebook</p>
+              </button>
+
+                        <button class="socials">
+                <img class="images" src="/images/google.jpeg" />
+                <p>Google</p>
+              </button>
+                    </div>
+                    <p class="last">
+                        DON'T HAVE AN ACCOUNT?
+                        <span><a href="register.html">SIGN UP</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script/login.js"></script>
+</body>
+
+</html>
